@@ -1,0 +1,52 @@
+{
+  "name": "maskon",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "fp-ts": "^2.8.1",
+    "fp-ts-rxjs": "^0.6.9",
+    "io-ts": "^2.2.9",
+    "react": "^16.13.1",
+    "react-native": "^0.63.2",
+    "react-native-android-wifi": "^0.0.41",
+    "react-native-push-notification": "^5.0.1",
+    "react-native-wifi-reborn": "^4.2.0",
+    "rxjs": "^6.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "@types/jest": "^25.2.3",
+    "@types/react-native": "^0.63.2",
+    "@types/react-native-push-notification": "^3.0.9",
+    "@types/react-test-renderer": "^16.9.2",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.5.1",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "prettier": "^2.0.4",
+    "react-test-renderer": "^16.13.1",
+    "typescript": "^3.8.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
