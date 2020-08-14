@@ -33,8 +33,6 @@ export const WifiPoller: React.FC<WifiPollerProps> = () => {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            key:
-              'b4e018b4adb10c82c3b67e1dce2f3e52aac5eacc038d8fd38b8104b3a7d94115',
           },
           body: {
             user_id: 0,
